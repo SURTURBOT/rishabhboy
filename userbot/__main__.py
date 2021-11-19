@@ -34,9 +34,9 @@ else:
             api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
         print("Initialisation finished with no errors")
-        print("🔰ՏTᗩᖇT LynxBot🔰")
+        print("🔰ՏTᗩᖇT Thanos🔰")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
-        print("⚡LynxBot ՏTᗩᖇTᑌᑭ ᑕOᗰᑭᒪᗴTᗴᗪ⚡")
+        print("⚡Thanos ՏTᗩᖇTᑌᑭ ᑕOᗰᑭᒪᗴTᗴᗪ⚡")
     else:
         bot.start()
 
@@ -52,7 +52,7 @@ for name in files:
 
 import userbot._core
 
-print(f"""Hello sir i am LynxBot!! LynxBot VERSION :- {REBELversion} YOUR LynxBot IS READY! FOR CHECK YOUR BOT WORKING OR NOT PLEASE TYPE (.lynx/.ping) ENJOY YOUR BOT! JOIN FOR MORE FUTURE UPDATES @LynxBot_Chat .""")
+print(f"""Hello sir i am ThanosBot!! ThanosBot VERSION :- {REBELversion} YOUR ThanosBot IS READY! FOR CHECK YOUR BOT WORKING OR NOT PLEASE TYPE (.thanos/.ping) ENJOY YOUR BOT! JOIN FOR MORE FUTURE UPDATES @ThanosBot_chat .""")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
